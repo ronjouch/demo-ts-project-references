@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "incremental": true,
+    "lib": ["dom", "es2020"],
+    "listFiles": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "outDir": "dist",
+    // "rootDir": ".",
+    "rootDirs": ["app", "lib"],
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2019"
+  }
+}

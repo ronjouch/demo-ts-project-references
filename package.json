@@ -1,0 +1,17 @@
+{
+  "name": "demo-ts-proj",
+  "version": "1.0.0",
+  "main": "dist/app/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile": "tsc -b lib app",
+    "compile:watch": "tsc -b lib app -w",
+    "start": "node dist/app/index.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.0.5"
+  }
+}
