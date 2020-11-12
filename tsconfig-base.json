@@ -10,10 +10,17 @@
     "moduleResolution": "node",
     "noUnusedLocals": true,
     "outDir": "dist",
-    // "rootDir": ".",
-    "rootDirs": ["app", "lib"],
+    "rootDir": ".",
+    // "rootDirs": ["lib", "app"],
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es2019"
+    "target": "es2019",
+    // "paths": {
+      // "*": ["*"],
+      // "*": [ "./*", "./lib/*" ]
+      // "/*": [ "*" ],
+      // "lib": ["lib"],
+      // "lib/*": ["lib/*"]
+    // }
   }
 }
